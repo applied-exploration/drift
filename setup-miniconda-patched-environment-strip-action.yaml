@@ -1,0 +1,14 @@
+name: strip
+channels:
+  - johnsnowlabs
+  - conda-forge
+  - defaults
+  - ml4t
+  - ranaroussi
+dependencies:
+  - python=3.9
+  - pip:
+      - black
+      - libcst
+  - python=3.9
+prefix: /usr/local/anaconda3/envs/strip

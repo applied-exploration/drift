@@ -1,0 +1,38 @@
+name: quant
+channels:
+  - johnsnowlabs
+  - conda-forge
+  - defaults
+  - ml4t
+  - ranaroussi
+dependencies:
+  - python=3.9
+  - scikit-learn-intelex=2021.4.0
+  - pip:
+    - torch
+    - pytorch-lightning
+    - fracdiff
+    - ray
+    - diskcache
+    - seaborn
+    - ipython
+    - ipykernel
+    - scipy
+    - scikit-learn
+    - numba
+    - matplotlib
+    - numpy
+    - quantstats
+    - pytest
+    - wandb
+    - python-dotenv
+    - tscv
+    - tqdm
+    - pandas-ta
+    - xgboost
+    - lightgbm
+    - alphalens-reloaded
+    - vectorbt
+    - pydantic
+    - pandera[mypy]
+prefix: /usr/local/anaconda3/envs/quant
