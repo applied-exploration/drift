@@ -9,8 +9,6 @@ class EventSchema(pa.SchemaModel):
 
 
 class EventLabeller(ABC):
-    def label_events(
-        self, event_start_times: pd.DatetimeIndex, forward_returns: ForwardReturnSeries
-    ):
+    def label_events(self, event_start_times: pd.DatetimeIndex, returns: ReturnSeries):
         """No docstring here yet."""
         pass

@@ -40,11 +40,6 @@ def __apply_feature_extractors(
     pass
 
 
-def __create_target_cum_forward_returns(series: pd.Series, period: int):
-    """No docstring here yet."""
-    pass
-
-
 def load_only_returns(assets: DataCollection, returns: Literal["price", "returns"]):
     """No docstring here yet."""
     pass

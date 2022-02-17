@@ -7,10 +7,6 @@ class Model(ABC):
         """No docstring here yet."""
         pass
 
-    def clone(self):
-        """No docstring here yet."""
-        pass
-
-    def initialize_network(self, input_dim: int, output_dim: int):
+    def predict_proba(self, X: np.ndarray):
         """No docstring here yet."""
         pass

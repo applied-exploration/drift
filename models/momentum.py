@@ -1,4 +1,4 @@
-class StaticMomentumModel(Model):
+class StaticMomentumModel(BaseEstimator, ClassifierMixin, Model):
     def __init__(self, allow_short: bool):
         """No docstring here yet."""
         pass
@@ -11,10 +11,6 @@ class StaticMomentumModel(Model):
         """No docstring here yet."""
         pass
 
-    def clone(self):
-        """No docstring here yet."""
-        pass
-
-    def initialize_network(self, input_dim: int, output_dim: int):
+    def predict_proba(self, X):
         """No docstring here yet."""
         pass

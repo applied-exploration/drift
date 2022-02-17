@@ -4,11 +4,6 @@ class TrainingOutcome:
 
 
 @dataclass
-class EnsembleOutcome:
-    pass
-
-
-@dataclass
 class BetSizingWithMetaOutcome:
     pass
 

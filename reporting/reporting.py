@@ -1,5 +1,5 @@
 def report_results(
-    directional_stats: list[Stats],
+    directional_stats: Stats,
     output_stats: Stats,
     output_weights: WeightsSeries,
     config: Config,

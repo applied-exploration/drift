@@ -6,7 +6,7 @@ def __generate_even_odd_test_data(no_of_rows):
     pass
 
 
-class EvenOddStubModel(Model):
+class EvenOddStubModel(BaseEstimator, ClassifierMixin, Model):
     def __init__(self, window_length):
         """No docstring here yet."""
         pass
@@ -19,11 +19,7 @@ class EvenOddStubModel(Model):
         """No docstring here yet."""
         pass
 
-    def clone(self):
-        """No docstring here yet."""
-        pass
-
-    def initialize_network(self, input_dim: int, output_dim: int):
+    def predict_proba(self, X):
         """No docstring here yet."""
         pass
 

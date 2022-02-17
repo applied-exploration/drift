@@ -1,5 +1,5 @@
 class RFETransformation(Transformation):
-    def __init__(self, n_feature_to_select: int, model: Model, step=0.1):
+    def __init__(self, n_feature_to_select: int, model: SKLearnModel, step=0.1):
         """No docstring here yet."""
         pass
 

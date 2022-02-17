@@ -1,4 +1,4 @@
-def walk_forward_inference(
+def walk_forward_inference_batched(
     model_name: str,
     model_over_time: ModelOverTime,
     transformations_over_time: TransformationsOverTime,
@@ -15,8 +15,6 @@ def walk_forward_inference(
 def __inference_from_window(
     index_start: int,
     index_end: int,
-    inference_from: int,
-    retrain_every: int,
     X: XDataFrame,
     model_over_time: ModelOverTime,
     transformations_over_time: TransformationsOverTime,

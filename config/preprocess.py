@@ -23,11 +23,6 @@ def __preprocess_event_filter_config(data_dict: dict):
     pass
 
 
-def __preprocess_event_labeller_config(data_dict: dict):
-    """No docstring here yet."""
-    pass
-
-
-def validate_config(config: Config):
+def __preprocess_event_labeller_config(config_dict: dict):
     """No docstring here yet."""
     pass

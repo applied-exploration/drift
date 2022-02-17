@@ -6,7 +6,7 @@ def __generate_incremental_test_data(no_of_rows):
     pass
 
 
-class IncrementingStubModel(Model):
+class IncrementingStubModel(Model, BaseEstimator, ClassifierMixin):
     def __init__(self, window_length):
         """No docstring here yet."""
         pass
@@ -19,11 +19,7 @@ class IncrementingStubModel(Model):
         """No docstring here yet."""
         pass
 
-    def clone(self):
-        """No docstring here yet."""
-        pass
-
-    def initialize_network(self, input_dim: int, output_dim: int):
+    def predict_proba(self, X):
         """No docstring here yet."""
         pass
 

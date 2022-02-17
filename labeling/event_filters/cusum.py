@@ -16,3 +16,8 @@ class CUSUMFixedEventFilter(EventFilter):
     def get_event_start_times(self, returns: ReturnSeries):
         """No docstring here yet."""
         pass
+
+
+def _process(diffed_returns: List, threshold: float32):
+    """No docstring here yet."""
+    pass
