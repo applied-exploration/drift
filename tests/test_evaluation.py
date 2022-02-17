@@ -1,7 +1,6 @@
 def __generate_even_odd_test_data(no_of_rows):
     """
     Test data, where X[n][any_column] == 1 if n is even, else 0
-
     """
     pass
 

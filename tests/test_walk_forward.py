@@ -1,7 +1,6 @@
 def __generate_incremental_test_data(no_of_rows):
     """
     Test data, where X[n][any_column] == y[n]+1
-
     """
     pass
 
