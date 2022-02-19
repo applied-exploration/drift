@@ -5,13 +5,13 @@ def run_pipeline(
     pass
 
 
-def __setup_config(
+def setup_config(
     project_name: str, with_wandb: bool, sweep: bool, raw_config: RawConfig
 ):
     """No docstring here yet."""
     pass
 
 
-def __run_training(config: Config):
+def run_training(config: Config):
     """No docstring here yet."""
     pass
