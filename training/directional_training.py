@@ -4,6 +4,7 @@ def train_directional_model(
     forward_returns: pd.Series,
     config: Config,
     model: Model,
+    transformations: list[Transformation],
     from_index: Optional[pd.Timestamp],
     preloaded_training_step: Optional[DirectionalTrainingOutcome] = None,
 ):

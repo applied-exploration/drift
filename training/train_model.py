@@ -4,7 +4,6 @@ def train_model(
     y: pd.Series,
     forward_returns: pd.Series,
     model: Model,
-    expanding_window: bool,
     sliding_window_size: int,
     retrain_every: int,
     from_index: Optional[pd.Timestamp],

@@ -26,3 +26,8 @@ def __preprocess_event_filter_config(data_dict: dict):
 def __preprocess_event_labeller_config(config_dict: dict):
     """No docstring here yet."""
     pass
+
+
+def __preprocess_transformations_config(config_dict: dict):
+    """No docstring here yet."""
+    pass

@@ -4,6 +4,7 @@ def bet_sizing_with_meta_model(
     y: ySeries,
     forward_returns: ForwardReturnSeries,
     model: Model,
+    transformations: list[Transformation],
     config: Config,
     model_suffix: str,
     from_index: Optional[pd.Timestamp],
