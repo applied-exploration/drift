@@ -1,5 +1,5 @@
 class CUSUMVolatilityEventFilter(EventFilter):
-    def __init__(self, vol_period: int):
+    def __init__(self, vol_period: int, multiplier: float):
         """No docstring here yet."""
         pass
 

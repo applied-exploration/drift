@@ -6,7 +6,7 @@ def train_directional_model(
     model: Model,
     transformations: list[Transformation],
     from_index: Optional[pd.Timestamp],
-    preloaded_training_step: Optional[DirectionalTrainingOutcome] = None,
+    preloaded_training_step: Optional[TrainingOutcome] = None,
 ):
     """No docstring here yet."""
     pass
