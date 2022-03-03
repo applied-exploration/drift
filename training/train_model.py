@@ -7,9 +7,7 @@ def train_model(
     sliding_window_size: int,
     retrain_every: int,
     from_index: Optional[pd.Timestamp],
-    no_of_classes: Literal["two", "three-balanced", "three-imbalanced"],
     level: str,
-    output_stats: bool,
     transformations_over_time: TransformationsOverTime,
     model_over_time: Optional[ModelOverTime],
 ):

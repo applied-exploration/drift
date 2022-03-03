@@ -1,15 +1,15 @@
 @dataclass
-class TrainingOutcomeWithoutTransformations:
+class BaseTrainingOutcome:
     pass
 
 
 @dataclass
-class TrainingOutcome(TrainingOutcomeWithoutTransformations):
+class TrainingOutcome(BaseTrainingOutcome):
     pass
 
 
 @dataclass
-class BetSizingWithMetaOutcome:
+class BetSizingWithMetaOutcome(TrainingOutcome):
     pass
 
 

@@ -6,7 +6,6 @@ def bet_sizing_with_meta_model(
     model: Model,
     transformations: list[Transformation],
     config: Config,
-    model_suffix: str,
     from_index: Optional[pd.Timestamp],
     transformations_over_time: Optional[TransformationsOverTime] = None,
     preloaded_models: Optional[ModelOverTime] = None,
