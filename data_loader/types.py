@@ -1,1 +1,3 @@
-
+@dataclass
+class DataSource:
+    pass

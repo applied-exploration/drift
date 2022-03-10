@@ -28,6 +28,7 @@ def __load_df(
     prefix: str,
     returns: Literal["none", "price", "returns", "log_returns"],
     feature_extractors: list[tuple[str, FeatureExtractor, list[int]]],
+    resample_to_freq: Optional[Literal["5m", "1h", "1d"]] = None,
 ):
     """No docstring here yet."""
     pass
