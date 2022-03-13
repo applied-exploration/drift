@@ -3,7 +3,7 @@ def get_rfe(n_feature_to_select: int):
     pass
 
 
-def get_pca(ratio_components_to_keep: float, sliding_window_size: int):
+def get_pca(ratio_components_to_keep: float, initial_window_size: int):
     """No docstring here yet."""
     pass
 

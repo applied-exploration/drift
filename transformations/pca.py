@@ -1,5 +1,5 @@
 class PCATransformation(Transformation):
-    def __init__(self, ratio_components_to_keep: float, sliding_window_size: int):
+    def __init__(self, ratio_components_to_keep: float, initial_window_size: int):
         """No docstring here yet."""
         pass
 
