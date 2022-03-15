@@ -1,3 +1,3 @@
 GitHub Pages of [applied-exploration/drift](https://github.com/applied-exploration/drift.git)
 ===
-Sphinx html documentation of [999dcfa1](https://github.com/applied-exploration/drift/tree/999dcfa1a3e8b9044e0acee188fb391a629a2b98)
+Sphinx html documentation of [51e8eca7](https://github.com/applied-exploration/drift/tree/51e8eca7706a1e8665c34e7106fe628f316cba0a)
