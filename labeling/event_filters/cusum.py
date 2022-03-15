@@ -18,6 +18,11 @@ class CUSUMFixedEventFilter(EventFilter):
         pass
 
 
-def _process(diffed_returns: List, threshold: float32):
+def _process_fixed(diffed_returns: List, threshold: float32):
+    """No docstring here yet."""
+    pass
+
+
+def _process_vol_based(diffed_returns: List, rolling_vol: List):
     """No docstring here yet."""
     pass
