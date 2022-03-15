@@ -12,6 +12,7 @@ def __load_data(
     own_features: list[tuple[str, FeatureExtractor, list[int]]],
     other_features: list[tuple[str, FeatureExtractor, list[int]]],
     exogenous_features: list[tuple[str, FeatureExtractor, list[int]]],
+    start_date: Optional[str],
 ):
     """
     Loads asset data from the specified path.
