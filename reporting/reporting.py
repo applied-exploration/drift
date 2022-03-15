@@ -4,7 +4,6 @@ def report_results(
     output_weights: WeightsSeries,
     config: Config,
     wandb,
-    sweep: bool,
 ):
     """No docstring here yet."""
     pass

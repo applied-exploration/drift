@@ -1,4 +1,4 @@
-def launch_wandb(project_name: str, default_config: RawConfig, sweep: bool = False):
+def launch_wandb(project_name: str, default_config: RawConfig):
     """No docstring here yet."""
     pass
 

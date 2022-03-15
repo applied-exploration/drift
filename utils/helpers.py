@@ -41,3 +41,8 @@ def equal_except_nan(row: pd.Series):
 def drop_until_first_valid_index(df: pd.DataFrame, series: pd.Series):
     """No docstring here yet."""
     pass
+
+
+def powerset(input: list):
+    """No docstring here yet."""
+    pass

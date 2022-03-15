@@ -8,6 +8,7 @@ def train_model(
     retrain_every: int,
     from_index: Optional[pd.Timestamp],
     level: str,
+    class_labels: list[int],
     transformations_over_time: TransformationsOverTime,
     model_over_time: Optional[ModelOverTime],
 ):

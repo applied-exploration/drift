@@ -18,7 +18,7 @@ def __preprocess_data_collections_config(data_dict: dict):
     pass
 
 
-def __preprocess_event_filter_config(data_dict: dict):
+def __preprocess_event_filter_config(config_dict: dict):
     """No docstring here yet."""
     pass
 
