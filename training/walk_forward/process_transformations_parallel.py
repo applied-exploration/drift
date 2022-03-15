@@ -14,7 +14,6 @@ def walk_forward_process_transformations(
 def preprocess_transformations_window(
     X: XDataFrame,
     y: ySeries,
-    window_size: int,
     transformations: list[Transformation],
     first_nonzero_return: int,
     index: int,

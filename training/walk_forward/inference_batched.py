@@ -19,8 +19,6 @@ def __inference_from_window(
     X: XDataFrame,
     model_over_time: ModelOverTime,
     transformations_over_time: TransformationsOverTime,
-    expanding_window: bool,
-    window_size: int,
 ):
     """No docstring here yet."""
     pass
