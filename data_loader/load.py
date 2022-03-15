@@ -1,9 +1,4 @@
-def load_data(**kwargs):
-    """No docstring here yet."""
-    pass
-
-
-def __load_data(
+def load_data(
     assets: DataCollection,
     other_assets: DataCollection,
     exogenous_data: DataCollection,
